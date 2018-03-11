@@ -1,0 +1,67 @@
+
+
+body {
+	background-image:url("./images./galaxy_background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+html, body, .wrapper{
+	height:100%;
+}
+
+.wrapper {
+    display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 10fr 1fr;
+	grid-template-areas: 'header'
+						 'nav'
+                         'content'
+						 'footer';
+}
+
+.header {
+	grid-area: header;
+	font-family: Arial, sans-serif;
+	text-align: left;
+	height: 100%;
+	width: 100%;
+	color: rgb(46,55,64);
+	background-color:rgba(172,95,67,.8);
+	align-self: start;
+}
+
+.nav {
+	grid-area: nav;
+	list-style-type: none;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	background-color: rgba(52,66,66,.5);
+	padding: 10px;
+}
+
+.nav li {
+	display: inline;
+	margin: 30px;
+	
+}
+
+.content {
+	grid-area: content;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+ .content img {
+	 max-width: 500px;
+ }
+
+.footer {
+	grid-area:footer;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	background-color: rgba(52,66,66,.5);
+	align-self: end;
+}
