@@ -4,7 +4,7 @@
   <head>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./formerfailure.css">
-    <title>formrfailure</title>
+    <title>about</title>
   </head>
   
   <body>
@@ -17,7 +17,7 @@
 		<nav>
           <ul class="nav">
             <li><a href="http://www.formr.me">home</a></li>
-	        <li><a href="./home.html">about</a></li>
+	        <li><a href="http://www.formr.me/about>about</a></li>
 	        <li><a href=>contact</a></li>
 		    <li><a href=>donate</a></li>
 	        <li><a href=>submit</a></li>
