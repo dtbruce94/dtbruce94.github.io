@@ -11,6 +11,16 @@ html, body, .wrapper{
 	height:100%;
 }
 
+a:link {
+    text-decoration: none;
+	color: rgb(255,255,255);
+}
+
+a:visited {
+	text-decoration: none;
+	color: rgb(255,255,255);
+}
+
 .wrapper {
     display: grid;
 	grid-template-columns: 1fr;
@@ -27,18 +37,13 @@ html, body, .wrapper{
 	font-family: Arial, sans-serif;
 	/*color: rgb(255,255,255);*/
 	text-align: right;
-	padding: 10px;
+	padding: 0em 1em 0em 1em;
 }
 
 .nav li {
 	display: inline;
-	margin: 10px;
+	margin: 1em;
 	
-}
-
-a:link {
-    text-decoration: none;
-	color: rgb(255,255,255);
 }
 
 .header {
@@ -46,8 +51,6 @@ a:link {
 	font-family: 'Montserrat', sans-serif;
 	letter-spacing: .6rem;
 	text-align: left;
-	height: 100%;
-	width: 100%;
 	color: rgb(255,255,255);
 	align-self: start;
 }
