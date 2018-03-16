@@ -1,7 +1,7 @@
-* {
+/** {
 	box-sizing: border-box;
 }
-
+*/
 body {
 	background-color: rgb(0,0,0);
 	background-size: cover;
@@ -66,11 +66,18 @@ a:visited {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
 }
 
- .content img {
-	 max-width: 500px;
+.post {
+	 max-width: 600px;
  }
+
+.post-content {
+	background-color: rgb(44,44,44);
+	min-height: 1000px;
+}
 
 .footer {
 	grid-area:footer;
